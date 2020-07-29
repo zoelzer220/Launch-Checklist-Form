@@ -3,7 +3,7 @@ h1 {
 }
 
 div {
-    text-align: left;
+    text-align: center;
 }
 
 #faultyItems {
@@ -29,6 +29,7 @@ div {
 }
 
 #missionTarget img {
+    align-content: center;
     max-width: 40%;
     max-height: 250px;
 }

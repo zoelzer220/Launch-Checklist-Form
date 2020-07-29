@@ -6,7 +6,7 @@ window.addEventListener("load", function() {
       const planet = document.getElementById('missionTarget');
       const randomIndex = Math.floor(Math.random() * jsonArray.length);
       planet.innerHTML = `
-            <div>
+            <div id="destination">
                <h2>Mission Destination</h2>
                 <ol>
                    <li>Name: ${jsonArray[randomIndex].name}</li>
